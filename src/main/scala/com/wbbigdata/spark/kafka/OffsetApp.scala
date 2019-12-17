@@ -80,7 +80,7 @@ object OffsetApp {
       })
       rdd
     })
-      .map(x => { // 对获取到的数据进行相应的操作
+      .map(x => {
       (x.key(), x.value())
     }).foreachRDD(rdd => {
 //      rdd.foreach(println)

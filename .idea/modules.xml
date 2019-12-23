@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-project/spring-boot-project.iml" filepath="$PROJECT_DIR$/spring-boot-project/spring-boot-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-quick/spring-boot-quick.iml" filepath="$PROJECT_DIR$/spring-boot-quick/spring-boot-quick.iml" />
       <module fileurl="file://$PROJECT_DIR$/wb-project.iml" filepath="$PROJECT_DIR$/wb-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wb-springboot/wb-springboot.iml" filepath="$PROJECT_DIR$/wb-springboot/wb-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wb-weibo/wb-weibo.iml" filepath="$PROJECT_DIR$/wb-weibo/wb-weibo.iml" />
     </modules>
   </component>
 </project>

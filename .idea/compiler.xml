@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wb-project" />
+        <module name="spring-boot-project" />
+        <module name="spring-boot-quick" />
+        <module name="wb-springboot" />
+        <module name="wb-weibo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="wb-project" target="1.8" />
+      <module name="spring-boot-project" target="1.6" />
+      <module name="spring-boot-quick" target="1.8" />
+      <module name="wb-project" target="1.5" />
+      <module name="wb-springboot" target="1.8" />
+      <module name="wb-weibo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

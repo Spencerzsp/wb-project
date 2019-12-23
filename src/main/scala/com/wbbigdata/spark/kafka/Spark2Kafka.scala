@@ -49,11 +49,11 @@ object Spark2Kafka {
 
     val topics = Array("access")
 
-    val kafkaDStream = KafkaUtils.createDirectStream(
-      ssc,
-      LocationStrategies.PreferConsistent,
-      ConsumerStrategies.Subscribe(topics, kafkaParams)
-    )
+//    val kafkaDStream = KafkaUtils.createDirectStream(
+//      ssc,
+//      LocationStrategies.PreferConsistent,
+//      ConsumerStrategies.Subscribe(topics, kafkaParams)
+//    )
 
     // 如果使用direct方式，生成的kafkaDStream必须调用foreachRDD
 //    kafkaDStream.foreachRDD(kafkaRDD => {
